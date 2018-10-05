@@ -50,6 +50,20 @@ footer{
     display:block;
 }
 
+.blockarticle{
+    width:20%;
+    display:inline-block;
+    max-height:50px;
+    overflow:hidden;
+    transition:max-height 1s ease-out;
+    vertical-align: top;
+}
+
+.blockarticle:hover{
+    max-height:500px;
+    transition:max-height 1s ease-out;
+}
+
 @media (max-width:600px){
     body{
         background-color:white;
